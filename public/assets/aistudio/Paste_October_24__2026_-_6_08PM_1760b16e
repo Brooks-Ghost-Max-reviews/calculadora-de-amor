@@ -1,0 +1,820 @@
+PROMPT MAESTRO PARA GOOGLE AI STUDIO
+
+Desarrollo de una Calculadora de Amor y Compatibilidad de Pareja de alta calidad
+
+1. ROL Y OBJETIVO DEL PROYECTO
+
+Actúa como un equipo sénior formado por especialistas en desarrollo web, diseño UX/UI, JavaScript, SEO técnico, accesibilidad, análisis de compatibilidad de pareja, privacidad y generación de documentos PDF profesionales.
+
+Tu misión es desarrollar una herramienta web completa, funcional, precisa, rápida y visualmente excelente llamada:
+
+Calculadora de Amor y Compatibilidad de Pareja
+
+La herramienta debe estar diseñada para ayudar a las personas a explorar la compatibilidad entre dos nombres, reflexionar sobre aspectos importantes de una relación y comprender mejor los factores que influyen en una conexión sentimental.
+
+No construyas una calculadora superficial que únicamente muestre un porcentaje sin explicación. Desarrolla una experiencia completa que combine un cálculo basado en nombres con evaluaciones estructuradas de compatibilidad, explicaciones comprensibles, recomendaciones prácticas e informes descargables.
+
+El proyecto se desarrollará mediante Google AI Studio. Puedes utilizar las capacidades de desarrollo disponibles en ese entorno para construir una aplicación web completa, con componentes funcionales, diseño profesional y código mantenible.
+
+No te limites a describir cómo podría hacerse. Construye la aplicación, implementa las funciones y verifica su funcionamiento.
+
+La aplicación debe tener una identidad visual propia, pero debe integrarse fácilmente con UnderstandShe.com cuando se publique o se enlace desde dicha web.
+
+2. OBJETIVO PRINCIPAL DE SEO
+
+La palabra clave principal es:
+
+calculadora de amor
+
+La herramienta debe estar optimizada para responder a la intención de búsqueda de personas que desean calcular o explorar la compatibilidad entre dos personas.
+
+Trabaja de forma natural con las siguientes palabras clave:
+
+- calculadora de amor
+- calculadora de amor nombres
+- calculadora de amor en nombres
+- calculadora de amor por nombre
+- calculadora de amor porcentaje
+- calculadora de compatibilidad de amor
+- calculadoras de amor
+- calculadora de prueba de amor
+- calculadora de amor online
+- calculadora de amor juego
+
+No trates todas las variantes como palabras clave independientes que deban repetirse en el texto. Identifica la intención compartida y utilízalas de forma natural en las etiquetas, las instrucciones, las explicaciones y las preguntas frecuentes cuando corresponda.
+
+La calidad del producto y la satisfacción del usuario tienen prioridad sobre la repetición de términos.
+
+No inventes estadísticas de búsqueda, cifras de volumen, datos científicos ni afirmaciones sobre el posicionamiento.
+
+No garantices que la herramienta aparecerá en las primeras posiciones de Google.
+
+3. IDIOMA Y LOCALIZACIÓN
+
+Toda la interfaz, las explicaciones, los resultados, los mensajes de error, las recomendaciones, las preguntas frecuentes y los PDF deben estar redactados en español nativo de España.
+
+El texto debe parecer escrito por un profesional que conoce el idioma y las necesidades de los usuarios españoles.
+
+Utiliza expresiones naturales, claras y cercanas.
+
+Evita traducciones literales del inglés, frases robóticas, párrafos repetitivos y expresiones artificiales destinadas únicamente a SEO.
+
+Utiliza correctamente las tildes, la ñ, los signos de interrogación y la puntuación española.
+
+No mezcles inglés y español en la interfaz, excepto en nombres propios o términos técnicos imprescindibles.
+
+4. CONCEPTO CENTRAL DEL PRODUCTO
+
+La aplicación debe distinguir claramente entre dos tipos de resultados:
+
+A. Compatibilidad basada en nombres
+
+Permite introducir los nombres de dos personas y genera un resultado reproducible mediante un algoritmo determinista.
+
+Este resultado es una estimación recreativa basada en un método propio de la herramienta. No debe presentarse como una evaluación psicológica validada ni como una predicción real del futuro sentimental.
+
+B. Compatibilidad basada en respuestas
+
+Permite responder preguntas estructuradas sobre aspectos importantes de una relación, como comunicación, confianza, respeto, valores, gestión de conflictos, expectativas y disponibilidad emocional.
+
+El resultado se calcula a partir de las respuestas del usuario y debe explicar qué áreas parecen estar mejor desarrolladas y cuáles podrían necesitar atención.
+
+Esta evaluación tampoco debe presentarse como un diagnóstico psicológico ni como una medición científica validada.
+
+La aplicación debe explicar la diferencia entre ambos métodos para evitar que el usuario confunda un porcentaje generado a partir de nombres con una evaluación basada en respuestas.
+
+5. ARQUITECTURA GENERAL DE LA APLICACIÓN
+
+Diseña una interfaz de una sola aplicación con navegación interna sencilla.
+
+Incluye las siguientes secciones:
+
+1. Inicio de la calculadora.
+2. Compatibilidad por nombres.
+3. Evaluación de compatibilidad mediante preguntas.
+4. Informe detallado de resultados.
+5. Recomendaciones personalizadas.
+6. Comparación de respuestas entre dos personas, cuando ambas hayan completado la evaluación.
+7. Historial local opcional de resultados.
+8. Generación y descarga de PDF.
+9. Preguntas frecuentes.
+10. Explicación del método de cálculo.
+11. Privacidad y tratamiento de datos.
+12. Acceso para iniciar una nueva evaluación.
+
+No muestres todas las secciones como formularios largos en una única pantalla. Organiza la experiencia mediante pestañas, pasos o tarjetas para facilitar la navegación.
+
+El usuario debe poder volver a cualquier paso sin perder las respuestas que todavía no haya enviado.
+
+No recargues la página al cambiar de sección.
+
+No obligues al usuario a crear una cuenta.
+
+No exijas un correo electrónico para calcular resultados o descargar informes.
+
+6. DISEÑO DE LA PANTALLA PRINCIPAL
+
+La primera pantalla debe explicar de forma inmediata qué puede hacer el usuario.
+
+Incluye:
+
+- Nombre de la herramienta.
+- Breve descripción.
+- Campo para el nombre de la primera persona.
+- Campo para el nombre de la segunda persona.
+- Botón principal para calcular la compatibilidad.
+- Acceso visible a la evaluación mediante preguntas.
+- Explicación breve de las diferencias entre los métodos.
+- Enlace a la metodología.
+- Enlace a las preguntas frecuentes.
+
+El diseño debe transmitir confianza, profesionalidad, claridad y privacidad.
+
+No utilices una estética infantil ni una interfaz que parezca un juego publicitario.
+
+No llenes la pantalla de animaciones, efectos brillantes o elementos decorativos innecesarios.
+
+Prioriza una jerarquía visual clara, una tipografía legible, espacios equilibrados y controles fáciles de utilizar.
+
+7. MÓDULO 1: CALCULADORA DE AMOR POR NOMBRES
+
+Campos
+
+Solicita:
+
+- Nombre de la primera persona.
+- Nombre de la segunda persona.
+
+Permite nombres con tildes, ñ, espacios, apóstrofos y otros caracteres válidos.
+
+Elimina los espacios sobrantes al principio y al final.
+
+No modifiques visualmente los nombres originales.
+
+Si necesitas normalizar los nombres para el algoritmo, hazlo internamente sin alterar la forma en que se presentan al usuario.
+
+Valida que ambos campos contengan texto.
+
+No permitas calcular si falta alguno de los nombres.
+
+Algoritmo
+
+Desarrolla un algoritmo determinista basado en los nombres normalizados.
+
+Debe cumplir estas condiciones:
+
+1. El mismo par de nombres debe producir el mismo resultado en cada ejecución.
+2. El resultado debe estar comprendido entre el 1 % y el 100 %.
+3. No debe depender de números aleatorios.
+4. No debe utilizar servicios externos.
+5. Debe funcionar sin conexión una vez cargada la aplicación.
+6. Debe tratar correctamente las tildes y los caracteres españoles.
+7. Debe documentarse de manera comprensible.
+8. Debe ser fácil de mantener.
+
+Si es posible, diseña el algoritmo para que el orden de los nombres no cambie el porcentaje.
+
+No afirmes que el algoritmo descubre sentimientos reales ni que mide científicamente el amor.
+
+Resultado
+
+Muestra:
+
+- Los dos nombres.
+- El porcentaje obtenido.
+- Una representación visual del porcentaje.
+- Una interpretación breve.
+- Una explicación de cómo se obtiene el resultado.
+- Una nota sobre los límites del cálculo.
+- Un botón para generar un informe PDF.
+- Un botón para realizar otro cálculo.
+- Una opción para pasar a la evaluación mediante preguntas.
+
+El resultado debe presentarse de forma atractiva, pero sin exagerar su significado.
+
+8. MÓDULO 2: EVALUACIÓN DE COMPATIBILIDAD MEDIANTE PREGUNTAS
+
+Esta sección debe aportar una utilidad más profunda que la calculadora por nombres.
+
+Diseña un cuestionario estructurado con preguntas claras y relevantes para las relaciones sentimentales.
+
+Organiza las preguntas por categorías:
+
+Comunicación
+
+- Facilidad para hablar de sentimientos.
+- Capacidad para escuchar sin interrumpir.
+- Posibilidad de expresar desacuerdos con respeto.
+
+Confianza
+
+- Sensación de seguridad en la relación.
+- Coherencia entre palabras y acciones.
+- Capacidad para hablar de preocupaciones sin miedo.
+
+Respeto
+
+- Respeto por los límites personales.
+- Respeto por el espacio individual.
+- Capacidad para aceptar diferencias.
+
+Valores y expectativas
+
+- Objetivos de futuro.
+- Expectativas sobre el compromiso.
+- Prioridades personales y familiares.
+
+Gestión de conflictos
+
+- Capacidad para resolver desacuerdos.
+- Disposición para reconocer errores.
+- Capacidad para buscar soluciones compartidas.
+
+Afecto y conexión
+
+- Formas de expresar cariño.
+- Sensación de cercanía emocional.
+- Tiempo de calidad compartido.
+
+Independencia y equilibrio
+
+- Respeto por las amistades y los intereses individuales.
+- Equilibrio entre tiempo personal y tiempo compartido.
+- Capacidad para mantener una identidad propia.
+
+Expectativas de relación
+
+- Nivel de compromiso deseado.
+- Necesidad de comunicación.
+- Expectativas sobre exclusividad, cuando sea relevante.
+
+Utiliza preguntas que puedan responderse mediante una escala comprensible, por ejemplo:
+
+- Nunca.
+- Rara vez.
+- A veces.
+- A menudo.
+- Casi siempre.
+
+Incluye también una opción como "Prefiero no responder" cuando sea apropiado.
+
+No redactes preguntas que presupongan una relación heterosexual. Utiliza expresiones inclusivas y naturales que funcionen para distintos tipos de pareja.
+
+No utilices preguntas que presionen al usuario para compartir información íntima innecesaria.
+
+No solicites información sensible que no sea necesaria para la evaluación.
+
+Cuestionario individual y comparación
+
+Permite que una persona complete la evaluación individualmente.
+
+Ofrece una modalidad de comparación en la que cada integrante pueda responder por separado.
+
+No supongas que una persona conoce las respuestas de la otra.
+
+Cuando ambas personas hayan respondido, muestra:
+
+- Resultados individuales.
+- Coincidencias entre respuestas.
+- Diferencias relevantes.
+- Áreas con respuestas similares.
+- Temas que podrían beneficiarse de una conversación.
+- Preguntas para facilitar un diálogo respetuoso.
+
+No presentes las diferencias como pruebas de incompatibilidad definitiva.
+
+No generes diagnósticos ni afirmes que una pareja debe continuar o terminar una relación basándote en el cuestionario.
+
+9. SISTEMA DE PUNTUACIÓN
+
+Diseña un sistema de puntuación transparente para el cuestionario.
+
+Cada respuesta debe convertirse en un valor numérico mediante una regla documentada.
+
+Calcula los resultados por categoría y, si se presenta un índice global, explica qué representa.
+
+No confundas el porcentaje de respuestas positivas con una probabilidad de éxito sentimental.
+
+No utilices expresiones como "probabilidad de que vuestra relación funcione" si no existe una metodología validada que permita sostener esa afirmación.
+
+Incluye una explicación clara de los resultados.
+
+Si faltan respuestas, no las conviertas automáticamente en respuestas negativas.
+
+Define una regla consistente para las preguntas sin contestar y muestra cuándo un resultado es provisional.
+
+En la modalidad de comparación, no interpretes automáticamente cualquier diferencia como un problema. Algunas diferencias pueden reflejar preferencias individuales legítimas.
+
+10. INFORME DETALLADO Y RECOMENDACIONES
+
+Después de calcular los resultados, crea una pantalla de informe organizada por secciones.
+
+Incluye:
+
+- Resumen general.
+- Resultados por categoría.
+- Puntos de coincidencia.
+- Aspectos que convendría conversar.
+- Recomendaciones prácticas.
+- Preguntas para una conversación de pareja.
+- Límites del método.
+- Fecha de generación.
+
+Las recomendaciones deben relacionarse directamente con las respuestas.
+
+No generes recomendaciones genéricas que se repitan en todos los resultados.
+
+No afirmes que conoces la personalidad real de una persona por su nombre.
+
+No utilices lenguaje alarmista.
+
+No conviertas diferencias normales de opinión en señales de una relación dañina.
+
+Cuando existan indicios de falta de respeto o vulneración de límites en las respuestas, utiliza un lenguaje prudente y centrado en la seguridad, el respeto y la búsqueda de apoyo apropiado, sin realizar diagnósticos.
+
+Las recomendaciones deben ser concretas y aplicables.
+
+11. MÓDULO DE EXPLICACIÓN DEL MÉTODO
+
+Incluye una sección que explique cómo funciona cada modalidad.
+
+Diferencia claramente:
+
+Compatibilidad por nombres
+
+Es un cálculo recreativo basado en un algoritmo determinista. No demuestra la compatibilidad emocional de dos personas.
+
+Evaluación mediante preguntas
+
+Resume las respuestas aportadas y organiza la información en categorías. No sustituye una evaluación profesional ni predice el futuro de una relación.
+
+Explica que las relaciones dependen de muchos factores, como la comunicación, la confianza, el respeto, los valores y las circunstancias personales.
+
+No inventes estudios, investigaciones, autores ni porcentajes de éxito.
+
+No presentes el método como científicamente validado sin pruebas verificables.
+
+12. HISTORIAL LOCAL Y CONTINUIDAD
+
+Ofrece una función opcional para guardar resultados en el dispositivo.
+
+El usuario debe poder decidir si quiere activar el historial.
+
+Si se activa, utiliza almacenamiento local del navegador y explica brevemente qué información se guarda.
+
+Permite:
+
+- Consultar resultados anteriores.
+- Abrir un resultado guardado.
+- Eliminar un resultado individual.
+- Borrar todo el historial.
+
+No guardes información personal de forma oculta.
+
+No envíes los datos a servidores externos.
+
+No guardes respuestas íntimas de manera predeterminada.
+
+Incluye una opción para borrar todos los datos locales de la herramienta.
+
+No guardes nombres ni fechas de nacimiento si no son necesarios para la función elegida.
+
+13. INFORMES PDF DE CALIDAD PROFESIONAL
+
+La aplicación debe generar informes PDF reales, descargables y visualmente profesionales.
+
+No utilices una captura de pantalla como sustituto del documento.
+
+El informe debe tener una composición editorial cuidada, una jerarquía visual clara y un diseño consistente.
+
+Diseño general
+
+- Tamaño A4.
+- Márgenes profesionales.
+- Tipografía legible.
+- Encabezados diferenciados.
+- Espaciado consistente.
+- Tablas limpias.
+- Tarjetas de resultados cuando aporten claridad.
+- Colores discretos.
+- Pie de página.
+- Numeración en documentos de varias páginas.
+- Fecha de generación.
+- Identificación del tipo de informe.
+- Tratamiento correcto de tildes y caracteres españoles.
+
+Evita páginas vacías, contenido cortado, tablas desbordadas, texto superpuesto y saltos de página innecesarios.
+
+El documento debe seguir siendo legible en pantalla y al imprimirse.
+
+PDF de compatibilidad por nombres
+
+Incluye:
+
+1. Título del informe.
+2. Fecha de generación.
+3. Los dos nombres.
+4. Porcentaje calculado.
+5. Representación visual del resultado.
+6. Explicación del método.
+7. Interpretación breve.
+8. Límites del cálculo.
+9. Recomendaciones apropiadas.
+10. CTA clicable para regresar a la herramienta.
+
+PDF de evaluación mediante preguntas
+
+Incluye:
+
+1. Título del informe.
+2. Fecha de generación.
+3. Tipo de evaluación.
+4. Resumen general.
+5. Resultados por categoría.
+6. Coincidencias.
+7. Diferencias relevantes.
+8. Preguntas sugeridas para conversar.
+9. Recomendaciones personalizadas.
+10. Explicación del método.
+11. Límites de interpretación.
+12. CTA clicable para regresar a la herramienta.
+
+Integridad de los datos
+
+Los valores del PDF deben proceder del mismo objeto de resultados que se muestra en pantalla.
+
+No realices un segundo cálculo independiente que pueda producir diferencias.
+
+El documento debe reflejar fielmente el resultado que el usuario ha consultado.
+
+Tecnología
+
+Utiliza una biblioteca de generación de PDF compatible con el entorno de desarrollo.
+
+Prioriza una implementación fiable y ligera.
+
+Si se necesita una biblioteca externa, carga sus recursos solo cuando el usuario solicite generar el PDF.
+
+No bloquees la carga inicial de la aplicación para preparar un documento que todavía no se ha solicitado.
+
+Si la biblioteca no puede cargarse, muestra un mensaje claro y no descargues un archivo vacío o dañado.
+
+Verifica que la solución utilizada permita crear enlaces clicables dentro del PDF.
+
+14. CTA OBLIGATORIO EN TODOS LOS PDF
+
+Todos los PDF deben incluir una llamada a la acción que enlace con la página de UnderstandShe.com indicada a continuación.
+
+URL exacta:
+
+https://www.understandshe.com/p/calculadora-de-amor-edad-y-tiempo.html
+
+Utiliza un texto de enlace natural y descriptivo en español:
+
+"Volver a la Calculadora de Amor de UnderstandShe"
+
+El texto debe ser un enlace real dentro del PDF.
+
+Al hacer clic, debe abrir la URL indicada.
+
+No basta con dibujar un botón sin asignarle un destino.
+
+No conviertas la dirección en texto plano si la biblioteca permite crear un enlace asociado a un texto descriptivo.
+
+Centraliza la dirección en una constante de configuración, por ejemplo "PDF_CTA_URL", para que pueda actualizarse fácilmente en el futuro.
+
+Todos los informes deben utilizar esa misma constante.
+
+No inventes una URL alternativa ni elimines la dirección proporcionada.
+
+Comprueba que el enlace sea funcional en un lector PDF habitual.
+
+El CTA debe tener suficiente contraste, espacio alrededor y una apariencia profesional.
+
+Debe ser visible sin parecer un anuncio intrusivo.
+
+15. SEO ON-PAGE
+
+Prepara la aplicación para integrarse correctamente en una página web optimizada.
+
+Título SEO recomendado
+
+Calculadora de Amor: Compatibilidad por Nombres
+
+Meta descripción recomendada
+
+Descubre cómo funciona la calculadora de amor por nombres y explora la compatibilidad de pareja con resultados claros, preguntas útiles e informes en PDF.
+
+El título y la descripción son propuestas que deben poder ajustarse antes de publicar.
+
+Si la aplicación se publica dentro de una página cuyo título y metadatos ya están definidos, evita duplicarlos de forma incorrecta.
+
+No añadas títulos SEO, metadescripciones ni etiquetas de encabezado duplicadas en componentes que no las necesiten.
+
+Si el entorno de publicación permite configurar correctamente los metadatos, utiliza un único título principal de página y una única meta descripción.
+
+Encabezados
+
+Organiza el contenido con una jerarquía lógica.
+
+Utiliza la palabra clave principal de forma natural en el encabezado principal y en una sección relevante.
+
+Incluye variantes semánticas en los subtítulos cuando sean útiles para los usuarios.
+
+No repitas la misma frase en todos los encabezados.
+
+Contenido explicativo
+
+Incluye texto breve pero suficiente para explicar:
+
+- Qué es una calculadora de amor.
+- Cómo se calcula el resultado basado en nombres.
+- Qué significa el porcentaje.
+- Qué diferencia existe entre un cálculo por nombres y una evaluación mediante preguntas.
+- Cómo interpretar las respuestas de compatibilidad.
+- Qué información contiene el PDF.
+- Cómo utilizar la herramienta.
+
+El contenido debe resolver dudas reales.
+
+No añadas párrafos de relleno para alcanzar una longitud arbitraria.
+
+No introduzcas las palabras clave de forma artificial.
+
+Enlaces internos
+
+La herramienta debe ofrecer acceso claro a la página de UnderstandShe.com proporcionada.
+
+No inventes otros enlaces internos.
+
+Si se necesitan enlaces adicionales, utiliza únicamente direcciones reales proporcionadas por el propietario del sitio.
+
+Datos estructurados
+
+Si se añaden datos estructurados, utiliza únicamente tipos apropiados para el contenido real de la página.
+
+No inventes reseñas, puntuaciones, precios, autores, organizaciones ni valoraciones.
+
+No generes datos estructurados engañosos.
+
+No utilices marcado FAQ con la intención de garantizar resultados enriquecidos en Google.
+
+16. PREGUNTAS FRECUENTES
+
+Incluye preguntas frecuentes útiles en español de España.
+
+Considera las siguientes:
+
+- ¿Qué es una calculadora de amor?
+- ¿Cómo funciona una calculadora de amor por nombres?
+- ¿Qué significa el porcentaje de compatibilidad?
+- ¿La calculadora de amor puede determinar si dos personas están destinadas a estar juntas?
+- ¿En qué se diferencia el cálculo por nombres de la evaluación mediante preguntas?
+- ¿Puedo descargar los resultados en PDF?
+- ¿Se guardan los nombres y las respuestas?
+- ¿Cómo puedo volver a consultar un resultado anterior?
+
+Responde con claridad, sin exageraciones y sin repetir las mismas palabras clave en cada respuesta.
+
+Las preguntas frecuentes deben coincidir con las funciones que realmente ofrece la aplicación.
+
+No incluyas respuestas sobre características que todavía no se hayan implementado.
+
+17. PRIVACIDAD Y PROTECCIÓN DE DATOS
+
+La privacidad debe formar parte del diseño.
+
+Por defecto, realiza los cálculos localmente en el navegador.
+
+No envíes nombres ni respuestas a servicios externos.
+
+No incluyas claves API en el código del cliente.
+
+No solicites información personal innecesaria.
+
+No utilices respuestas privadas para publicidad.
+
+Si se activa el historial local, explica claramente su funcionamiento y permite borrarlo.
+
+Si se incorpora una función de inteligencia artificial para generar recomendaciones, no envíes datos personales a un servicio externo sin informar al usuario y sin implementar los controles apropiados.
+
+Siempre que sea posible, utiliza plantillas de recomendaciones locales y deterministas para reducir dependencias y proteger la privacidad.
+
+18. DISEÑO VISUAL Y EXPERIENCIA DE USUARIO
+
+La interfaz debe ser moderna, profesional y coherente.
+
+Utiliza:
+
+- Diseño adaptable a móviles y ordenadores.
+- Navegación intuitiva.
+- Tarjetas visuales equilibradas.
+- Formularios fáciles de completar.
+- Botones accesibles.
+- Indicadores de progreso.
+- Resultados organizados.
+- Mensajes de error claros.
+- Estados de carga cuando sean necesarios.
+- Animaciones discretas.
+- Contraste adecuado.
+- Espaciado consistente.
+
+Evita:
+
+- Diseños infantiles.
+- Ventanas emergentes invasivas.
+- Publicidad integrada en los resultados.
+- Formularios innecesariamente largos.
+- Animaciones continuas.
+- Elementos que distraigan.
+- Bloques de texto excesivos.
+- Funciones que no aporten valor.
+
+En dispositivos móviles, prioriza que los campos, los resultados y los botones sean fáciles de utilizar con una sola mano.
+
+19. RENDIMIENTO
+
+La aplicación debe ser rápida y eficiente.
+
+Requisitos:
+
+- Minimiza las dependencias.
+- Evita bibliotecas pesadas si existe una alternativa adecuada.
+- No hagas peticiones de red para los cálculos básicos.
+- No cargues la biblioteca PDF hasta que sea necesaria.
+- Evita renderizados repetidos innecesarios.
+- No ejecutes temporizadores permanentes.
+- No cargues imágenes decorativas grandes.
+- Evita animaciones que consuman recursos.
+- Mantén separados los módulos de cálculo, presentación y generación de PDF.
+- Evita errores en consola.
+- Gestiona correctamente los fallos de carga.
+
+No afirmes haber obtenido una puntuación específica de PageSpeed sin ejecutar pruebas reales.
+
+20. ACCESIBILIDAD
+
+La aplicación debe poder utilizarse con teclado y lectores de pantalla.
+
+Incluye etiquetas accesibles para los campos.
+
+Utiliza botones semánticos.
+
+Mantén un orden lógico de navegación.
+
+Identifica claramente los errores.
+
+Anuncia los resultados de forma accesible cuando corresponda.
+
+No utilices únicamente colores para comunicar diferencias.
+
+Respeta la preferencia del sistema para reducir el movimiento.
+
+Asegúrate de que los textos y controles sean legibles en pantallas pequeñas.
+
+21. ARQUITECTURA DEL CÓDIGO
+
+Organiza el código en módulos o componentes con responsabilidades claras.
+
+Separa:
+
+- Interfaz.
+- Validación de datos.
+- Normalización de nombres.
+- Algoritmo de compatibilidad por nombres.
+- Cuestionario.
+- Sistema de puntuación.
+- Generación de recomendaciones.
+- Gestión del historial.
+- Generación de PDF.
+- Configuración de enlaces.
+- Preguntas frecuentes.
+
+Utiliza nombres descriptivos para funciones y variables.
+
+Evita duplicar la lógica de cálculo.
+
+Mantén los resultados en una estructura de datos coherente para que la interfaz y los PDF utilicen los mismos valores.
+
+Incluye manejo de errores.
+
+No incluyas funciones vacías ni pseudocódigo en la versión final.
+
+No presentes botones que no tengan una acción funcional.
+
+22. PRUEBAS FUNCIONALES OBLIGATORIAS
+
+Antes de considerar terminada la aplicación, comprueba lo siguiente.
+
+Calculadora por nombres
+
+- Ambos campos vacíos.
+- Un campo vacío.
+- Dos nombres normales.
+- Nombres con tildes.
+- Nombres con ñ.
+- Nombres con espacios sobrantes.
+- Nombres largos.
+- Mismo par de nombres repetido.
+- Mismos nombres en orden inverso.
+
+Cuestionario
+
+- Todas las respuestas completadas.
+- Respuestas parcialmente completadas.
+- Preguntas sin responder.
+- Respuestas de las dos personas.
+- Diferencias entre respuestas.
+- Resultados por categoría.
+- Generación de recomendaciones.
+- Reinicio del cuestionario.
+
+Historial
+
+- Guardar un resultado.
+- Abrir un resultado.
+- Eliminar un resultado.
+- Borrar todo el historial.
+- Comprobar el comportamiento cuando el almacenamiento local no está disponible.
+
+PDF
+
+- Descargar el informe por nombres.
+- Descargar el informe del cuestionario.
+- Verificar que todos los datos sean correctos.
+- Comprobar las tildes y la ñ.
+- Comprobar los saltos de página.
+- Comprobar los márgenes.
+- Comprobar la ausencia de texto cortado.
+- Verificar el enlace clicable del CTA.
+- Verificar que el enlace apunte exactamente a la URL configurada.
+
+Interfaz
+
+- Móvil.
+- Tableta.
+- Ordenador.
+- Navegación con teclado.
+- Mensajes de error.
+- Cambios de sección.
+- Reinicio de los cálculos.
+- Descarga de los informes.
+
+No declares que las pruebas se han superado si no se han ejecutado realmente.
+
+Si una prueba falla, corrige el problema antes de dar por terminado el trabajo.
+
+23. CRITERIOS DE ACEPTACIÓN
+
+La aplicación solo se considerará terminada cuando cumpla estos criterios:
+
+1. La calculadora por nombres funciona correctamente.
+2. El algoritmo es determinista.
+3. El cuestionario permite evaluar distintas áreas de una relación.
+4. Las puntuaciones tienen una explicación comprensible.
+5. Los resultados no se presentan como diagnósticos ni predicciones científicas.
+6. Las recomendaciones están relacionadas con las respuestas.
+7. El usuario puede generar informes PDF profesionales.
+8. Los PDF contienen los datos correctos.
+9. El CTA de cada PDF es realmente clicable.
+10. El CTA utiliza exactamente la URL configurada.
+11. La interfaz está redactada en español nativo de España.
+12. La aplicación funciona en móviles y ordenadores.
+13. La privacidad está protegida.
+14. No existen botones principales sin funcionalidad.
+15. No hay errores críticos en la consola.
+16. El contenido SEO es natural y útil.
+17. La aplicación no contiene afirmaciones engañosas.
+18. Las funciones opcionales están identificadas y probadas.
+19. La descarga de PDF no bloquea la carga inicial.
+20. El proyecto puede mantenerse y ampliarse sin reescribir toda la aplicación.
+
+24. ENTREGA FINAL
+
+Construye la aplicación completa en Google AI Studio.
+
+No respondas únicamente con un plan de desarrollo.
+
+No entregues una maqueta estática.
+
+No simules funciones que no existan.
+
+No utilices resultados de ejemplo como si fueran datos reales del usuario.
+
+No incluyas información ficticia en los informes.
+
+No afirmes que se han ejecutado pruebas que no se hayan realizado.
+
+Al terminar, presenta:
+
+1. La aplicación funcional.
+2. Un resumen de las funciones implementadas.
+3. Las decisiones utilizadas para calcular los resultados.
+4. La solución empleada para generar los PDF.
+5. La confirmación de que el CTA utiliza la URL indicada, si se ha verificado.
+6. Los resultados reales de las pruebas ejecutadas.
+7. Cualquier limitación pendiente.
+
+El resultado debe ser una herramienta digital de alta calidad, útil para los usuarios, accesible, rápida, profesional y preparada para evolucionar.
+
+La prioridad no es añadir el mayor número posible de funciones sin criterio. La prioridad es implementar funciones que funcionen correctamente, aporten valor real y permitan al usuario comprender los resultados y tomar sus propias decisiones.

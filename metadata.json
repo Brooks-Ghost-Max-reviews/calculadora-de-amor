@@ -1,0 +1,9 @@
+{
+  "name": "Calculadora de Amor: Compatibilidad por Nombres",
+  "title": "Calculadora de Amor: Compatibilidad por Nombres",
+  "displayName": "Calculadora de Amor: Compatibilidad por Nombres",
+  "slug": "calculadora-de-amor",
+  "description": "Calculadora de amor por nombres y porcentaje de compatibilidad. Explora la conexión de pareja, responde preguntas y descarga tu informe en PDF. Asegura una interfaz intuitiva con gráficos animados y compatibilidad en modo oscuro.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
